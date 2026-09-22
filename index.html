@@ -22,8 +22,8 @@
 </main></div><div id="modal" class="modal hidden"><div class="modalbox"><h3 id="modalTitle">勤務区分</h3><div class="choices" id="choices"></div><div style="margin-top:12px;text-align:right"><button class="ghost" onclick="closeModal()">キャンセル</button></div></div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const SUPABASE_URL = '__SUPABASE_URL__';
-const SUPABASE_ANON_KEY = '__SUPABASE_ANON_KEY__';
+const SUPABASE_URL = 'https://sdjigxfbwzeimicmlatn.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_b8Duq_BfXPJh-BwurLLxxQ_dynjmxYz';
 const sb = (SUPABASE_URL.startsWith('http') && !SUPABASE_URL.includes('__')) ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 let onlineProfile=null, onlineReady=false, loadingRemote=false;
 const KEY='dayservice_shift_v071'; // keep existing test data
